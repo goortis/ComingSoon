@@ -1,0 +1,46 @@
+body{
+    font-family: 'Raleway', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #000;
+    background-image: url(body-background.jpg);
+    background-size: cover;
+}
+
+
+.text-container h1{
+    font-size: 100px;
+    color: rgba(225,225,225,.1);
+    background-image: url(background.jpg);
+    background-repeat: repeat-x;
+    background-position: bottom;
+    background-size: cover;
+    -webkit-background-clip: text;
+    animation: animate 15s linear infinite;
+    text-align: center;
+    margin-top: 20%;
+    text-transform: uppercase;
+    font-weight: 800;
+    text-shadow: 0px 4px 3px rgba(0, 0, 0, 0.1),
+                 0px 8px 13px rgba(0, 0, 0, 0.1),
+                 0px 18px 23px rgba(0, 0, 0, 0.1);
+    
+}
+
+.nav-link {
+    font-size: 1.3em;
+    margin-left: 20px;
+}
+
+.navbar-brand{
+    margin-left: 40px;
+}
+
+@keyframes animate{
+    0% {
+        background-position: left 0px top 10px;
+    }
+    40%{
+        background-position: left 800px top 10px;
+    }
+}
