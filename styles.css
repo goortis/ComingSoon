@@ -5,6 +5,9 @@ body{
     background-color: #000;
     background-image: url(body-background.jpg);
     background-size: cover;
+	min-height:500px;
+    position: relative;
+    background-attachment: fixed
 }
 
 
